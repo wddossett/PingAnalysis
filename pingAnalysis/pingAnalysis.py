@@ -5,8 +5,8 @@ import pingparsing
 import re
 
 
-regex = r"^(.{3}) ([0-9]{2}\/[0-9]{2}\/[0-9]{4}) ([0-9]{2}:[0-9]{2}:[0-9]{2}).+?time.([0-9])+"
-with open("c:\\users\\bi003do\\log_usbou1-netvault.log") as f:
+regex = r"^(.{3}) ([0-9]{2}\/[0-9]{2}\/[0-9]{4}) ([0-9]{2}:[0-9]{2}:[0-9]{2}).+?time.([0-9]{2})+"
+with open("c:\\temp\\log_usdby1-netvault.log") as f:
     for x in range(0,2):
         next(f)
     for line in f:
